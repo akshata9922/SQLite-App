@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/btnview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/txtname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name :"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/edtname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/txtname"
+        android:hint="Enter Name"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtsurname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/edtname"
+        android:text="Surname"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/edtsurname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtname"
+        android:layout_toRightOf="@+id/txtsurname"
+        android:hint="Enter Surname"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtmarks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="106dp"
+        android:text="Marks"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/edtmarks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtsurname"
+        android:layout_toRightOf="@+id/txtmarks"
+        android:hint="Enter Marks"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnadd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="203dp"
+        android:text="ADD"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btnviewall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="185dp"
+        android:text="View All" />
+
+
+</RelativeLayout>
